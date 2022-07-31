@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body class="bg-blue-50 min-h-screen">
+    <div
+      class="container min-h-screen mx-auto flex justify-center items-center"
+    >
+      <div
+        class="min-w-[20rem] bg-white py-4 px-5 rounded-lg border border-solid border-gray-300"
+      >
+        <h1 class="font-body font-semibold text-2xl text-center">
+          Creat your Google Account
+        </h1>
+        <form class="mt-2">
+          <div class="flex items-center gap-0.5">
+            <fieldset>
+            <label
+              for="First
+            Name"
+            >
+              FirstName</label
+            >
+            <input
+              class="px-4 py-1 bg-white border border-solid border-gray-300 rounded focus:outline focus:outline-blue-400"
+              type="text" id="firstname" placeholder="firstname"
+            />
+          </fieldset>
+          <fieldset>
+            <label
+              for="Last
+            Name"
+            >
+              LastName</label
+            >
+            <input
+              class="px-4 py-1 bg-white border border-solid border-gray-300 rounded focus:outline focus:outline-blue-400"
+              type="text" id="lastname" placeholder="lastname"
+            />
+          </fieldset>
+          <fieldset>
+          </div>
+            <label
+              for="email"
+            >
+              Email</label
+            >
+            <input
+              class="px-4 py-1 bg-white border border-solid border-gray-300 rounded focus:outline focus:outline-blue-400"
+              type="checkbox" id="email" placeholder="email"
+            />
+            <small>you can use letters,number and symbols</small>
+          </fieldset>
+          <div class="flex items-center gap-0.5">
+            <fieldset>
+            <label
+              for="Last
+            Name"
+            >
+              Password</label
+            >
+            <input
+              class="px-4 py-1 bg-white border border-solid border-gray-300 rounded focus:outline focus:outline-blue-400"
+              type="text" id="password" placeholder="password"
+            />
+          </fieldset>
+          <fieldset>
+            <label
+              for="Last
+            Name"
+            >
+              Confirm</label
+            >
+            <input
+              class="px-4 py-1 bg-white border border-solid border-gray-300 rounded focus:outline focus:outline-blue-400"
+              type="text" id="confirm" placeholder="confirm password"
+            />
+          </fieldset>
+          </div>
+            
+          <fieldset>
+            <p>Select your interest</p>
+            <br />
+            <input type="radio" />
+            <label for="">Tech</label>
+            <input type="radio">
+            <label for="">Sports</label>
+            <input type="radio">
+            <label for="">Literature</label>
+          </fieldset>
+          <fieldset>
+            <label for="bio"></label>
+            <textarea class="form-control w-full" name="bio" id="bio" cols="30" rows="5"></textarea>
+          </fieldset>
+          <div class="mt-5 flex justify-end">
+            <button class="px-3 py-2 bg-blue-500 text-white hover:bg-blue-600 active:outline active:outline-1 active:outline-blue-400 rounded">Sing Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
